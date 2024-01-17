@@ -1,0 +1,652 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 40px;
+    background: gainsboro;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    width: 24.5%;
+    height: 40px;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.nav-bar a:hover {
+    background-color: rgba(182, 184, 185, 0.719);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con-1 {
+    width: 75%;
+    height: 750px;
+    margin: auto;
+
+}
+
+.con1-t1 {
+    width: 100%;
+    height: 15%;
+
+}
+
+.con1-text {
+    font-size: 2.4rem;
+    font-family: sans-serif;
+    margin-top: 10%;
+
+
+}
+
+.con1-text2 {
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    margin-top: 2%;
+}
+
+
+.con1-con {
+    width: 100%;
+    height: 75%;
+    background-image: url('/images/con1-img3.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con-2 {
+    width: 75%;
+    height: 380px;
+    margin: auto;
+
+}
+
+.con2-t1 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con2-text {
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+    width: 40%;
+    height: 50%;
+    border-bottom: 5px solid rgb(65, 63, 63);
+    animation-name: wid;
+    animation-duration: 2s;
+
+}
+
+@keyframes wid {
+    0% {
+        width: 0px;
+        font-size: 0rem;
+    }
+
+
+    100% {
+        font-size: 2rem;
+        width: 220px;
+    }
+}
+
+
+
+.con2-row {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.con2-col {
+    width: 25%;
+    height: 100%;
+    background: gainsboro;
+}
+
+.col-text {
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    margin: 4%;
+}
+
+.col-text2 {
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin: 4%;
+}
+
+.con2-col{
+    background-color: rgba(196, 194, 194, 0.966);
+}
+.col-text21{
+    color:wheat;
+}
+.col-text22{
+    color: wheat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con-4 {
+    width: 75%;
+    margin: auto;
+    height: 780px;
+
+}
+
+.con4-t1 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.con4-text {
+    font-size: 1.9rem;
+    font-family: serif;
+    text-transform: capitalize;
+
+}
+
+.con4-text2 {
+    font-size: 1rem;
+    font-family: serif;
+    margin-top: 1%;
+
+}
+
+
+
+.con4-row {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+
+
+.con4-col {
+    width: 32%;
+    height: 100%;
+    border: 1px solid rgb(207, 205, 205);
+    box-shadow: 3px 3px rgba(236, 235, 235, 0.637);
+
+}
+
+.con4-col:hover {
+    box-shadow: 5px 5px rgba(226, 226, 226, 0.637);
+}
+
+.col4-text {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: serif;
+    border-bottom: 1px solid rgb(207, 205, 205);
+    background: #000;
+    color: white;
+
+}
+
+.con4-col li {
+    list-style-type: none;
+    font-size: 1rem;
+    font-family: sans-serif;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(209, 205, 205);
+}
+
+.col4-text2 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    font-family: serif;
+    border-bottom: 1px solid rgb(212, 210, 210);
+    color: black;
+
+
+}
+
+.col4-text3 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1rem;
+    font-family: serif;
+    color: black;
+    background: rgba(245, 242, 242, 0.918);
+
+}
+
+.col4-text3 button {
+    width: 120px;
+    height: 40px;
+    padding: 8px 2px;
+    background: rgb(112, 250, 112);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: serif;
+    border: none;
+    cursor: pointer;
+}
+
+.col4-text3 button:hover {
+    background: rgba(168, 166, 166, 0.788);
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con-5 {
+    width: 75%;
+    height: 580px;
+    margin: auto;
+
+}
+
+.con5-t1 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con5-text {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    width: 40%;
+    height: 50%;
+    border-bottom: 5px solid rgb(65, 63, 63);
+    animation-name: wid2;
+    animation-duration: 2s;
+
+}
+
+@keyframes wid2 {
+    0% {
+        width: 0px;
+        font-size: 0rem;
+    }
+
+
+    100% {
+        font-size: 2rem;
+        width: 180px;
+    }
+}
+
+
+
+
+
+.con5-row {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.row5-col {
+    width: 32.5%;
+    height: 100%;
+    border-radius: 3px;
+    background: rgba(196, 194, 194, 0.671);
+
+}
+
+
+.col5-img {
+    width: 100%;
+    height: 48%;
+    background-image: url('/images/con1-img.jpg');
+    background-size: 100% 100%;
+}
+
+.col5-img2 {
+    width: 100%;
+    height: 48%;
+    background-image: url('/images/con1-img.jpg');
+    background-size: 100% 100%;
+}
+
+.col5-img3 {
+    width: 100%;
+    height: 48%;
+    background-image: url('/images/con1-img.jpg');
+    background-size: 100% 100%;
+}
+
+.col5-text {
+    width: 100%;
+    height: 52%;
+
+}
+
+.col5-t1 {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: #000;
+    margin: 2%;
+}
+
+.col5-t2 {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: gray;
+    margin: 2%;
+}
+
+.col5-t3 {
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    color: black;
+    margin: 2%;
+}
+
+.col5-btn {
+    width: 90%;
+    margin: 5%;
+    height: 40px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: serif;
+    background: #a8a6a6dc;
+    color: white;
+    padding: 8px 0px;
+    cursor: pointer;
+}
+
+.col5-btn:hover {
+    background: #646363c2;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con-6 {
+    width: 75%;
+    height: 480px;
+    margin: auto;
+
+}
+
+.con6-t1 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con6-text {
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    width: 40%;
+    height: 60%;
+    border-bottom: 5px solid rgb(65, 63, 63);
+    animation-name: wid3;
+    animation-duration: 3s;
+
+}
+
+@keyframes wid3 {
+    0% {
+        width: 0px;
+        font-size: 0rem;
+    }
+
+
+    100% {
+        font-size: 1.9rem;
+        width: 160px;
+    }
+}
+
+
+form{
+    width: 100%;
+    height: 80%;
+}
+label{
+    font-size: 1rem;
+
+}
+.input{
+    margin-top: 1.4%;
+}
+input{
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    padding: 9px 0px;
+    border: 1px solid rgb(225, 225, 226);
+    border-radius: 2px;
+
+}
+input:hover{
+    border: 1px solid black;
+}
+.input{
+    margin-top: 1.4%;
+}
+
+input[button]:hover{
+background: white;
+color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* small mobile and divices */
+
+@media (min-width:220px) and (max-width: 768px) {
+html{
+font-size:12px;
+
+}
+.con-2{
+    width: 85%;
+}
+
+.con-4 {
+    width: 85%;
+    height: 540px;
+
+}
+.con-5{
+    width: 85%;
+}
+
+
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media (max-width:768px) and (min-width:600px) {
+html{
+font-size: 12px;
+}
+
+
+
+
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media(max-width:992px) and (min-width:768px){
+html{
+font-size: 14px;
+}
+
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width:1200px){
+html{
+font-size: 16px;
+
+
+}
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
